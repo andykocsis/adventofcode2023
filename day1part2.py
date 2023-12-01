@@ -12,7 +12,7 @@ with open("day1.txt") as day1:
 for x in rawdata:
 	
 #Search for first digit
-	match = re.search('\d', x)
+	match = re.search('\d', str(x))
 	first_digit = int(match.group())
 	
 	
